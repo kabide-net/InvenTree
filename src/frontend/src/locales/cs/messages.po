@@ -8,7 +8,7 @@ msgstr ""
 "Language: cs\n"
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-05-10 10:59\n"
+"PO-Revision-Date: 2026-05-11 10:13\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
@@ -431,7 +431,7 @@ msgstr "Vrácená objednávka"
 #: lib/enums/ModelInformation.tsx:196
 #: lib/enums/Roles.tsx:42
 #: src/defaults/actions.tsx:127
-#: src/pages/Index/Settings/SystemSettings.tsx:343
+#: src/pages/Index/Settings/SystemSettings.tsx:344
 #: src/pages/company/CompanyDetail.tsx:231
 #: src/pages/part/PartDetail.tsx:758
 #: src/pages/sales/SalesIndex.tsx:99
@@ -1091,11 +1091,11 @@ msgstr "Zobraz počet polžek s nízkou skladovou zásobou"
 #: src/components/dashboard/DashboardWidgetLibrary.tsx:74
 #: src/tables/part/PartTable.tsx:287
 msgid "High Stock"
-msgstr ""
+msgstr "Vysoké zásoby"
 
 #: src/components/dashboard/DashboardWidgetLibrary.tsx:76
 msgid "Show the number of parts which have excess stock"
-msgstr ""
+msgstr "Zobrazit počet položek které mají přebytečné zásoby"
 
 #: src/components/dashboard/DashboardWidgetLibrary.tsx:85
 msgid "Required for Build Orders"
@@ -1949,7 +1949,7 @@ msgstr "Verze rozhraní API"
 #: src/defaults/actions.tsx:173
 #: src/pages/Index/Settings/AdminCenter/Index.tsx:229
 #: src/pages/Index/Settings/AdminCenter/PluginManagementPanel.tsx:58
-#: src/pages/Index/Settings/SystemSettings.tsx:356
+#: src/pages/Index/Settings/SystemSettings.tsx:357
 msgid "Plugins"
 msgstr "Pluginy"
 
@@ -2732,8 +2732,8 @@ msgstr "Uživatelská nastavení"
 #: src/components/nav/NavigationDrawer.tsx:146
 #: src/components/nav/SettingsHeader.tsx:41
 #: src/defaults/actions.tsx:155
-#: src/pages/Index/Settings/SystemSettings.tsx:373
-#: src/pages/Index/Settings/SystemSettings.tsx:378
+#: src/pages/Index/Settings/SystemSettings.tsx:374
+#: src/pages/Index/Settings/SystemSettings.tsx:379
 msgid "System Settings"
 msgstr "Nastavení systému"
 
@@ -4553,7 +4553,7 @@ msgstr "O InvenTree.org"
 
 #: src/forms/BomForms.tsx:43
 msgid "Required component quantity"
-msgstr ""
+msgstr "Požadované množství komponent"
 
 #: src/forms/BomForms.tsx:123
 msgid "Substitute Part"
@@ -7928,7 +7928,7 @@ msgstr "Minimální zásoby"
 
 #: src/pages/part/PartDetail.tsx:462
 msgid "Maximum Stock"
-msgstr ""
+msgstr "Maximální zásoby"
 
 #: src/pages/part/PartDetail.tsx:477
 #: src/tables/bom/UsedInTable.tsx:95
@@ -11072,7 +11072,7 @@ msgstr "Minimální zásoby"
 
 #: src/tables/part/PartTable.tsx:119
 msgid "Maximum stock"
-msgstr ""
+msgstr "Maximální zásoby"
 
 #: src/tables/part/PartTable.tsx:216
 msgid "Filter by part active status"
@@ -11140,7 +11140,7 @@ msgstr "Filtrovat podle dílů, které mají nízké zásoby"
 
 #: src/tables/part/PartTable.tsx:288
 msgid "Filter by parts which have high stock"
-msgstr ""
+msgstr "Filtrovat podle dílů, které mají vysoké zásoby"
 
 #: src/tables/part/PartTable.tsx:293
 msgid "Purchaseable"

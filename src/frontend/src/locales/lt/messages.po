@@ -8,7 +8,7 @@ msgstr ""
 "Language: lt\n"
 "Project-Id-Version: inventree\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-05-10 10:59\n"
+"PO-Revision-Date: 2026-05-11 10:13\n"
 "Last-Translator: \n"
 "Language-Team: Lithuanian\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && (n%100>19 || n%100<11) ? 0 : (n%10>=2 && n%10<=9) && (n%100>19 || n%100<11) ? 1 : n%1!=0 ? 2: 3);\n"
@@ -431,7 +431,7 @@ msgstr ""
 #: lib/enums/ModelInformation.tsx:196
 #: lib/enums/Roles.tsx:42
 #: src/defaults/actions.tsx:127
-#: src/pages/Index/Settings/SystemSettings.tsx:343
+#: src/pages/Index/Settings/SystemSettings.tsx:344
 #: src/pages/company/CompanyDetail.tsx:231
 #: src/pages/part/PartDetail.tsx:758
 #: src/pages/sales/SalesIndex.tsx:99
@@ -1949,7 +1949,7 @@ msgstr ""
 #: src/defaults/actions.tsx:173
 #: src/pages/Index/Settings/AdminCenter/Index.tsx:229
 #: src/pages/Index/Settings/AdminCenter/PluginManagementPanel.tsx:58
-#: src/pages/Index/Settings/SystemSettings.tsx:356
+#: src/pages/Index/Settings/SystemSettings.tsx:357
 msgid "Plugins"
 msgstr ""
 
@@ -2732,8 +2732,8 @@ msgstr ""
 #: src/components/nav/NavigationDrawer.tsx:146
 #: src/components/nav/SettingsHeader.tsx:41
 #: src/defaults/actions.tsx:155
-#: src/pages/Index/Settings/SystemSettings.tsx:373
-#: src/pages/Index/Settings/SystemSettings.tsx:378
+#: src/pages/Index/Settings/SystemSettings.tsx:374
+#: src/pages/Index/Settings/SystemSettings.tsx:379
 msgid "System Settings"
 msgstr ""
 

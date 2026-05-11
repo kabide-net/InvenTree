@@ -426,7 +426,7 @@ msgstr "Return Order"
 #: lib/enums/ModelInformation.tsx:196
 #: lib/enums/Roles.tsx:42
 #: src/defaults/actions.tsx:127
-#: src/pages/Index/Settings/SystemSettings.tsx:343
+#: src/pages/Index/Settings/SystemSettings.tsx:344
 #: src/pages/company/CompanyDetail.tsx:231
 #: src/pages/part/PartDetail.tsx:758
 #: src/pages/sales/SalesIndex.tsx:99
@@ -1944,7 +1944,7 @@ msgstr "API Version"
 #: src/defaults/actions.tsx:173
 #: src/pages/Index/Settings/AdminCenter/Index.tsx:229
 #: src/pages/Index/Settings/AdminCenter/PluginManagementPanel.tsx:58
-#: src/pages/Index/Settings/SystemSettings.tsx:356
+#: src/pages/Index/Settings/SystemSettings.tsx:357
 msgid "Plugins"
 msgstr "Plugins"
 
@@ -2727,8 +2727,8 @@ msgstr "User Settings"
 #: src/components/nav/NavigationDrawer.tsx:146
 #: src/components/nav/SettingsHeader.tsx:41
 #: src/defaults/actions.tsx:155
-#: src/pages/Index/Settings/SystemSettings.tsx:373
-#: src/pages/Index/Settings/SystemSettings.tsx:378
+#: src/pages/Index/Settings/SystemSettings.tsx:374
+#: src/pages/Index/Settings/SystemSettings.tsx:379
 msgid "System Settings"
 msgstr "System Settings"
 

@@ -1,12 +1,25 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.241.1/containers/python-3
 {
-  "name": "InvenTree devcontainer",
+  "name": "InvenTree Codespace",
   "dockerComposeFile": "docker-compose.yml",
   "service": "inventree",
   "overrideCommand": true,
   "workspaceFolder": "/home/inventree/",
 
+  // Force SQLite globally for all terminals and processes
+  "containerEnv": {
+      "INVENTREE_DB_ENGINE": "sqlite3",
+      "INVENTREE_DB_NAME": "${containerWorkspaceFolder}/dev/db.sqlite3"
+  },
+
+  // Tell Codespaces to automatically install and configure SSH
+  "features": {
+      "ghcr.io/devcontainers/features/sshd:1": {
+          "version": "latest"
+      }
+  },	
+  
   // Configure tool-specific properties.
   "customizations": {
     // Configure properties specific to VS Code.
@@ -57,8 +70,11 @@
     }
   },
 
-  // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": ".devcontainer/postCreateCommand.sh",
+  // Run the official setup AND your custom setup
+  "postCreateCommand": "bash ./fork-setup.sh && bash .devcontainer/postCreateCommand.sh",
+
+  // Automatically start the server and workers every time the machine boots
+  "postStartCommand": "bash ./start.sh",
 
   // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "vscode",
